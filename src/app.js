@@ -21,7 +21,7 @@ store.subscribe(() => {
 const expenseOne = store.dispatch(addExpense({ description: 'Water Bill', amount: 4500 }));
 const expenseTwo = store.dispatch(addExpense({ description: 'Gas Bill', createdAt: 1500 }));
 const expenseThree = store.dispatch(addExpense({ description: 'rent', amount: 109500 }));
-store.dispatch(setTextFilter('water'));
+// store.dispatch(setTextFilter('water'));
 
 
 const jsx = (

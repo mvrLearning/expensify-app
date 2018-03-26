@@ -11,3 +11,7 @@ Actions change the stores
 store.getState() //
 
 Actions - an object that gets sent to the store.
+
+https://regex101.com/
+
+http://momentjs.com/
